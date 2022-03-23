@@ -9,7 +9,7 @@ const secret = require('./secret')
 const privateKey = secret["private_key"]// clé privée de ton wallet
 const myAddress = secret["public_key"] // clé publique de ton wallet
 
-const amountToSwap = '0.2' // En avax
+const amountToSwap = '0.3' // En avax
 const gwei = '80'
 const slippage = 0    // 0 = on s'en fout du slippage juste donne moi mes shitcoins
 // FIN CHOSES A CHANGERA
